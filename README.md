@@ -2,7 +2,7 @@
 
 A color initializer for your python program!
 
-So this is an efficient IMO. 
+So this is an efficient program, IMO. 
 
 
 It has multiple features, as listed below
@@ -34,4 +34,4 @@ If at anytime, you find a bug/error in the program, please let me know and I wil
 So, I guess that is the whole program, and I hope you find this useful!
 
 
-# Please upvote and I'll so you in my next post. Bye!
+# Hope you find this useful!
