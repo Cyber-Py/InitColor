@@ -1,4 +1,4 @@
-def InitColor(red = 0, green = 0, blue = 0, bold = False, dim = False, italic = False, underlined = False, swap_foreground_and_bg_colors = False, hidden = False, reset = False,reset_all = False):
+def InitColor(red = 0, green = 0, blue = 0, bold = False, dim = False, italic = False, underlined = False, swap_colors = False, hidden = False, reset = False,reset_all = False):
   '''
   ```
   red, green, and blue: color to use throughout the code unless changed\n
@@ -42,7 +42,7 @@ def InitColor(red = 0, green = 0, blue = 0, bold = False, dim = False, italic = 
       print('\033[4m')
       clear()
       break
-    elif swap_foreground_and_bg_colors == True:
+    elif swap_colors == True:
       print('\033[7m')
       clear()
       break

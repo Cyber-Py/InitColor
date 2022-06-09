@@ -14,7 +14,7 @@ It has multiple features, as listed below
 |Dim|Makes the text lighter|
 |Italic|Makes the text slanted|
 |Underline|Makes the text output with an underline|
-|Swap Foreground and Background|Makes the text and background switch colors|
+|Swap Colors|Makes the text and background switch colors|
 |Hidden|Makes the text invisible|
 |Reset|Resets all **attributes**|
 |Reset All|Resets everything|
@@ -24,7 +24,7 @@ It has multiple features, as listed below
 It's simple. Simply this:
 
 ```py
-InitColor(red = 0, green = 0, blue = 0, bold = True, dim = True, italic = True, unerlined = True, swap_foreground_and_bg_colors = True, hidden = True, reset = True, reset_all = True)
+InitColor(red = 0, green = 0, blue = 0, bold = True, dim = True, italic = True, unerlined = True, swap_colors = True, hidden = True, reset = True, reset_all = True)
 
 # Replace the 0's and the True's with what you want
 ```
